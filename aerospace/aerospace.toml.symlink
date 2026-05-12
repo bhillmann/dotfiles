@@ -12,10 +12,6 @@ after-startup-command = []
 # Start AeroSpace at login
 start-at-login = true
 
-# Customization
-alt-s = 'layout v_accordian'
-alt-f = 'fullscreen'
-
 # Normalizations. See: https://nikitabobko.github.io/AeroSpace/guide#normalization
 enable-normalization-flatten-containers = true
 enable-normalization-opposite-orientation-for-nested-containers = true
@@ -132,6 +128,10 @@ on-mode-changed = []
     alt-minus = 'resize smart -50'
     alt-equal = 'resize smart +50'
 
+    # Customization
+    alt-s = 'layout v_accordian'
+    alt-f = 'fullscreen'
+
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
     alt-1 = 'workspace 1'
     alt-2 = 'workspace 2'
@@ -147,7 +147,6 @@ on-mode-changed = []
     alt-c = 'workspace C'
     alt-d = 'workspace D'
     alt-e = 'workspace E'
-    alt-f = 'workspace F'
     alt-g = 'workspace G'
     alt-i = 'workspace I'
     alt-m = 'workspace M'
@@ -156,7 +155,6 @@ on-mode-changed = []
     alt-p = 'workspace P'
     alt-q = 'workspace Q'
     alt-r = 'workspace R'
-    alt-s = 'workspace S'
     alt-t = 'workspace T'
     alt-u = 'workspace U'
     alt-v = 'workspace V'
