@@ -129,7 +129,7 @@ on-mode-changed = []
     alt-equal = 'resize smart +50'
 
     # Customization
-    alt-s = 'layout v_accordian'
+    alt-s = 'layout v_accordion'
     alt-f = 'fullscreen'
 
     # See: https://nikitabobko.github.io/AeroSpace/commands#workspace
